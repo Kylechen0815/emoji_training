@@ -1,0 +1,16 @@
+# 核心矩陣與數據處理
+numpy==1.26.4
+pandas==2.2.1
+
+# 影像處理
+opencv-python==4.9.0.80
+Pillow==10.2.0
+matplotlib==3.8.3
+
+# 深度學習框架 (PyTorch)
+torch==2.2.1
+torchvision==0.17.1
+
+# 模型訓練輔助工具
+tqdm==4.66.2          # 訓練進度條，讓你不用盲等
+scikit-learn==1.4.1   # 用來做訓練集/測試集分割s

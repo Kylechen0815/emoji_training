@@ -1,0 +1,13 @@
+# 排除虛擬環境
+.venv/
+
+# 排除數據集 (最重要！)
+data/
+raw/
+annotations/
+
+# 排除暫存檔與模型檔
+__pycache__/
+*.pth
+*.jpg
+*.png
