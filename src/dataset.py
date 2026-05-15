@@ -1,3 +1,11 @@
+import pandas as pd
+import torch
+from torch.utils.data import Dataset  # <--- 就是少了這一行！
+from PIL import Image
+import os
+import numpy as np
+
+
 class CelebADataset(Dataset): # 繼承自 PyTorch 官方類別，必須實作 __len__ 和 __getitem__
     def __init__(self, csv_file, img_dir, transform=None):
         # 使用 Pandas 讀取標註檔 (CSV)，這就像是你的 File Allocation Table
